@@ -1,0 +1,395 @@
+body{
+	color: #363636;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #363636;
+}
+a{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: #363636;
+}
+.font1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	text-align: left;
+}
+.font2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+h2{
+	font-size: 16px;
+	font-weight: 600;
+}
+p{
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+}
+/* This is start styles of header */
+/* This is big div, it is contain 2 div inside */
+.header-div{
+	width: 60%;
+	margin: 0 20%;
+	padding: 40px 0px;
+}
+/* This div contain the logo (Left side) */
+.header-div-l{
+	float: left;
+}
+/* This div contain nav and link icons (Right side) */
+.header-div-r{
+	float: right;
+}
+nav{
+	float: left;
+}
+nav a{
+	word-spacing: 10px;
+	font-size: 13px;
+	font-weight: 700;
+}
+nav a:hover{
+	color: #0177a8;
+}
+.header-div-r-1{
+	float: right;
+}
+.header-div-r-1-img-1{
+	width: 20px;
+	height: 20px;
+}
+/* This is end styles of header */
+
+/* This is start of section1 (Proffesional Family Health Care) */
+.section1{
+	width: 100%;
+	height: 1000px;
+	background-image: url("../img/lady.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+/* This is big div, it is contain top div and bottom div */
+.section1-div{
+	padding: 40px 0px;
+}
+/* This is top div, it is contain span,p and div contain img */
+.section1-div-t{
+	margin: 50px 20%; 
+}
+/* This is bottom div, it is contain 3 div beside each other */
+.section1-div-b{
+	margin: 200px 10%;
+	width: 80%;
+}
+.section1-div-b-div-1, .section1-div-b-div-2{
+	width: 20%;
+	float:left;
+	padding: 5%;
+	background-color: #B9F7F9;
+	border-radius: 20px;
+}
+.section1-div-b-div-2{
+	background-color: #D4FDFE;
+	padding: 6%;
+}
+.section1-h2-1{
+	color: #0078aa;
+	font-size: 30px;
+	font-weight: 400;
+}
+.section1-div-b-div-1-2{
+	margin: 50px 0px;
+}
+.section1-btn-1, .section1-btn-2{
+	width: 120px;
+	height: 50px;
+	border-radius: 40px; 
+	border: 0px;
+	background-color: #fff;
+	font-weight: 700;
+	font-size: 12px;
+}
+.section1-btn-1:hover{
+	background-color: #B9F7F9;
+	border: solid #0078aa  2px;
+}
+.section1-btn-2:hover{
+	background-color: #D4FDFE;
+	border: solid #0078aa  2px;
+}
+
+/* This is end of section1 (Proffesional Family Health Care) */
+
+
+/* This is start of section2 (About Jevelin Clinic) */
+.section2{
+	clear: both;
+	width: 100%;
+	padding-bottom: 300px;
+	padding-top: 150px;
+}
+.section2-div{
+	margin: 0 10%;
+	padding-bottom: 200px;
+}
+.section2-div-l{
+	float: left;
+}
+.section2-div-r{
+	float: right;
+	width: 40%;
+	margin-right: 10%;
+}
+
+.section2-div-r-h2{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 36px;
+}
+.section2-div-r-h5{
+	font-weight: 600;
+	font-size: 12px;
+	color: #0078aa;
+}
+.section2-div-r-btn{
+	width: 100%;
+	height: 50px;
+	background-color: #F4F4F4;
+	border: 0;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 5px;
+	text-align: left;
+	padding-left: 40px;
+}
+.section2-div-r-btn:hover{
+	color: #fff;
+	background-color: #3DE2AD;
+	display: inline-block;
+}
+.section2-div-r-btn-p{
+	display: none;
+}
+/* This is end of section2 (About Jevelin Clinic) */
+
+
+/* This is start of section3 (How we can help you) */
+#section3{
+	clear: both;
+	width: 100%;
+	padding-bottom: 50px;
+	background-image: url("../img/Rectangle-827-copy-2.jpg");
+}
+.section3-div{
+	margin: 100px 20%;
+	padding-top: 200px;
+}
+.section3-div-t{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.section3-div-t-h2{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 20px;
+}
+.section3-div-b{
+	background-color: #fff;
+	height: 600px;
+	border-radius: 10px; 
+	
+}
+.section3-div-b-t{
+
+}
+.section3-div-b-t-div-1{
+	float: left;
+	padding: 40px;
+	width: 25%;
+}
+/* This is end of section3 (How we can help you) */
+
+
+/* This is start of section4 (Jenna Berg) */
+#section4{
+	clear: both;
+}
+.section4-div{
+	padding-left: 20%;
+}
+.section4-div-l{
+	float: left;
+	width: 30%;
+	padding-top: 100px;
+}
+.section4-div-r{
+	float: right;
+}
+.section4-div-1-h2{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 20px;
+}
+.section4-div-1-h5{
+	font-weight: 600;
+	font-size: 12px;
+	color: #0078aa;
+}
+.section4-div-1-p-1{
+	padding-top: 50px;
+	font-weight: 900;
+	font-size: 14px;
+}
+.section4-div-1-btn{
+	margin-top: 60px;
+	width: 150px;
+	height: 50px;
+	border-radius: 40px; 
+	border: 0px;
+	background-color: #57E6B8;
+	color: #fff;
+	font-weight: 700;
+	font-size: 12px;
+
+}
+.section4-div-1-btn:hover{
+	border: solid #57E6B8  2px;
+	color: #363636;
+	background-color: #fff;
+}
+/* This is end of section4 (Jenna Berg) */
+
+/* This is start of section5 (small section) */
+#section5{
+	clear: both;
+	height: 300px;
+	background-color: #F4F4F4;
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+
+}
+.section5-div{
+	padding: 50px;
+	margin-left: 100px;
+	float: left;
+}
+.section5-div-1{
+	float: left;
+	text-align: center;
+}
+.section5-div-h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 20px;
+}
+#section5 h4{
+	color: #3CE2AD;
+	font-weight: 900;
+	letter-spacing: -2px;
+}
+.section5-div-1-h5{
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+
+}
+/* This is end of section5 (small section) */
+
+
+#section6{
+	margin: 150px 0;
+	height: 1200px;
+	padding-bottom: 100px;
+	background-image: url("../img/BG.jpg");
+}
+.section6-div{
+	text-align: center;
+	margin:0 20%;
+
+}
+.section6-div-t h2{
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 20px;
+}
+
+
+/* This is bottom div, it is contain 3 div beside each other */
+.section6-div-b{
+	margin: 100px 5%;
+	width: 100%;
+}
+.section6-div-b-div-1, .section6-div-b-div-2{
+	width: 20%;
+	float:left;
+	padding: 5%;
+	background-color: #D4FDFE;
+	border: #ccc solid 1px;
+}
+.section6-div-b-div-2{
+	background-color: #fff;
+	padding: 5%;
+}
+.section6-h2-1{
+	color: #3a3a3a;
+	font-size: 24px;
+	font-weight: 900;
+}
+.section6-h2-2{
+	color: #3a3a3a;
+	font-size: 60px;
+	font-weight: 900;
+	margin: 0px;
+}
+.section6-h2-2 span{
+	font-size: 	30px;
+	font-weight: 400;
+}
+.section6-div-b-div-1-2{
+	margin: 50px 0px;
+}
+.section6-btn-1, .section6-btn-2{
+	width: 120px;
+	height: 50px;
+	border-radius: 40px; 
+	border: 0px;
+	background-color: #fff;
+	font-weight: 700;
+	font-size: 12px;
+}
+.section6-btn-2{
+	background-color: #0078AA;
+	color: #fff;
+}
+.section6-btn-1:hover{
+	background-color: #D4FDFE;
+	border: solid #0078aa  2px;
+}
+.section6-btn-2:hover{
+	background-color: #fff;
+	border: solid #0078aa  2px;
+	color: #363636;
+}
+.section6-div-b-div-1-1 p{
+	margin: 30px;
+}
